@@ -1,0 +1,97 @@
+.footer-section{
+    max-width: 1440px;
+    height: 427px;
+    margin: 7rem 165px 63px;
+    display: flex;
+    gap: 121px;
+    justify-content: center;
+}
+
+.about{
+    width: 278px;
+}
+
+.footer-logo{
+    display: flex;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 900;
+    gap: 16px;
+    align-items: center;
+}
+
+.about-text{
+    margin-bottom: 64px;
+    font-size: 23px;
+    font-weight: 900;
+    color: rgba(25, 24, 37, 0.50);
+}
+
+.social{
+    display: flex;
+    gap: 32px;
+    color: var(--btnColor);
+}
+
+.footer-section ul{
+    all: unset;
+}
+
+.footer-section ul li{
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 32px;
+    font-size: 18px;
+    color: rgba(25, 24, 37, 0.75);
+}
+.footer-section ul li:hover{
+    color: #000;
+
+}
+
+.company, .contact, .meet-us{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 23px;
+    color: #191825;
+}
+
+   /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 768px) {
+
+    .email-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-box input{
+        width: 70%;
+    height: 4px;
+    }
+    .footer-section{
+        margin: 15rem 25px 20px;
+        gap: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-text{
+        font-size: 15px;
+    }
+    .company, .contact, .meet-us{
+        gap: 15px;
+        font-size: 20px;
+    }
+    .footer-section ul li{
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .footer-logo{
+        justify-content: center
+    }
+    .social{
+        justify-content: center;
+    }
+   }
